@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Orchestra_Configure" time="11" tests="2" failures="0" errors="0">
+   <testsuite name="Orchestra_Configure" tests="2" failures="0" errors="0" time="11" timestamp="2018-09-15 13:01:16" hostname="Anuk - CL-AnukD" id="Test Suites/Orchestra_Configure">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\Orchestra_Configure\\20180915_130114"/>
+         <property name="logFiles" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\Orchestra_Configure\\20180915_130114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anuk - CL-AnukD"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7c4748a3b62cb6a58fd6ac5ea17d5e1d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Orchestra/Login" classname="Test Cases/Orchestra/Login" status="PASSED">
+         <system-out><![CDATA[2018-09-15 13:01:17 - [TEST_CASE][PASSED] - Test Cases/Orchestra/Login: Test Cases/Orchestra/Login
+
+2018-09-15 13:01:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 13:01:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 13:01:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-09-15 13:01:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-09-15 13:01:23 - [TEST_STEP][PASSED] - setText: Text 'superadmin' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-09-15 13:01:23 - [MESSAGE][PASSED] - Text 'superadmin' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-09-15 13:01:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-09-15 13:01:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-09-15 13:01:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on
+
+2018-09-15 13:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on
+
+2018-09-15 13:01:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Qmatic Platform/h1_Welcome to Qmatic Orchestra' are matched.
+
+2018-09-15 13:01:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Qmatic Platform/h1_Welcome to Qmatic Orchestra' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orchestra/Add_Lic" classname="Test Cases/Orchestra/Add_Lic" status="PASSED">
+         <system-out><![CDATA[2018-09-15 13:01:25 - [TEST_CASE][PASSED] - Test Cases/Orchestra/Add_Lic: Test Cases/Orchestra/Add_Lic
+
+2018-09-15 13:01:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-09-15 13:01:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-09-15 13:01:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to Qmatic Orchestra' is present on page 
+
+2018-09-15 13:01:26 - [MESSAGE][PASSED] - Text 'Welcome to Qmatic Orchestra' is present on page 
+
+2018-09-15 13:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Qmatic Platform/span_System Administration' is clicked on
+
+2018-09-15 13:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qmatic Platform/span_System Administration' is clicked on
+
+2018-09-15 13:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_System Administration/a_Licensing' is clicked on
+
+2018-09-15 13:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Administration/a_Licensing' is clicked on
+
+2018-09-15 13:01:26 - [TEST_STEP][PASSED] - setText: Text 'QAKL-WYJI-RNBW-PPSE-HCJS-BJCF-NSPJ' is set on object 'Object Repository/Page_System Administration/input_License Key_inputfield m'
+
+2018-09-15 13:01:27 - [MESSAGE][PASSED] - Text 'QAKL-WYJI-RNBW-PPSE-HCJS-BJCF-NSPJ' is set on object 'Object Repository/Page_System Administration/input_License Key_inputfield m'
+
+2018-09-15 13:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_System Administration/button_Activate Online' is clicked on
+
+2018-09-15 13:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Administration/button_Activate Online' is clicked on
+
+2018-09-15 13:01:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 13:01:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-15 13:01:16 - [TEST_SUITE][PASSED] - Orchestra_Configure: Test Cases/Orchestra/Add_Lic]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orchestra_Configure,Firefox 62.0,,2018-09-27 12:41:32,2018-09-27 12:42:11,38.964s,PASSED
+,,,,,,
+Test Cases/Orchestra/TC_Login,Firefox 62.0,,2018-09-27 12:41:33,2018-09-27 12:42:11,37.985s,PASSED
+openBrowser,Firefox 62.0,,2018-09-27 12:41:33,2018-09-27 12:42:07,34.314s,PASSED
+navigateToUrl,Firefox 62.0,,2018-09-27 12:42:07,2018-09-27 12:42:09,1.358s,PASSED
+setText,Firefox 62.0,,2018-09-27 12:42:09,2018-09-27 12:42:09,0.238s,PASSED
+setText,Firefox 62.0,,2018-09-27 12:42:09,2018-09-27 12:42:09,0.113s,PASSED
+click,Firefox 62.0,,2018-09-27 12:42:09,2018-09-27 12:42:11,1.558s,PASSED
+verifyElementText,Firefox 62.0,,2018-09-27 12:42:11,2018-09-27 12:42:11,0.002s,NOT_RUN

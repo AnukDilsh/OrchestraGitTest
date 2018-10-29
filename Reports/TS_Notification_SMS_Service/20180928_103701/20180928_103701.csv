@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Notification_SMS_Service,,,2018-09-28 10:37:03,2018-09-28 10:37:07,4.297s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyFromSMS,,,2018-09-28 10:37:03,2018-09-28 10:37:05,1.281s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyFromSMS)),,,2018-09-28 10:37:04,2018-09-28 10:37:04,0.837s,PASSED
+verifyResponseStatusCode,,,2018-09-28 10:37:04,2018-09-28 10:37:04,0.025s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:04,2018-09-28 10:37:04,0.060s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:04,2018-09-28 10:37:05,0.059s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptySmsMsg,,,2018-09-28 10:37:05,2018-09-28 10:37:05,0.785s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptySmsMsg)),,,2018-09-28 10:37:05,2018-09-28 10:37:05,0.526s,PASSED
+verifyResponseStatusCode,,,2018-09-28 10:37:05,2018-09-28 10:37:05,0.002s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:05,2018-09-28 10:37:05,0.017s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:05,2018-09-28 10:37:05,0.025s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptySmsTenantID,,,2018-09-28 10:37:05,2018-09-28 10:37:06,0.863s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptySmsTenant)),,,2018-09-28 10:37:05,2018-09-28 10:37:06,0.657s,PASSED
+verifyResponseStatusCode,,,2018-09-28 10:37:06,2018-09-28 10:37:06,0.006s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:06,2018-09-28 10:37:06,0.038s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:06,2018-09-28 10:37:06,0.053s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendSMS,,,2018-09-28 10:37:06,2018-09-28 10:37:07,0.802s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendSMS)),,,2018-09-28 10:37:06,2018-09-28 10:37:07,0.576s,PASSED
+verifyResponseStatusCode,,,2018-09-28 10:37:07,2018-09-28 10:37:07,0.010s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:07,2018-09-28 10:37:07,0.046s,PASSED
+verifyElementPropertyValue,,,2018-09-28 10:37:07,2018-09-28 10:37:07,0.039s,PASSED

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Test Suite" time="46" tests="1" failures="0" errors="0">
+   <testsuite name="Demo Test Suite" tests="1" failures="0" errors="0" time="46" timestamp="2018-10-09 14:05:06" hostname="Anuk - CL-AnukD" id="Test Suites/Demo Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\Demo Test Suite\\20181009_140500"/>
+         <property name="logFiles" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\Demo Test Suite\\20181009_140500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anuk - CL-AnukD"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="ea364b98c6570fa26b9bafff2dd16692"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Demo/Demo_001" classname="Test Cases/Demo/Demo_001" status="PASSED">
+         <system-out><![CDATA[2018-10-09 14:05:06 - [TEST_CASE][PASSED] - Test Cases/Demo/Demo_001: Test Cases/Demo/Demo_001
+
+2018-10-09 14:05:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-09 14:05:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-09 14:05:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-09 14:05:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-09 14:05:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-09 14:05:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-09 14:05:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-09 14:05:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-09 14:05:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Qmatic Platform Login page/span_Log in' is clicked on
+
+2018-10-09 14:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qmatic Platform Login page/span_Log in' is clicked on
+
+2018-10-09 14:05:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-09 14:05:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-09 14:05:06 - [TEST_SUITE][PASSED] - Demo Test Suite: Test Cases/Demo/Demo_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

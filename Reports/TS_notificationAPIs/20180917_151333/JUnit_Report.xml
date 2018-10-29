@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_notificationAPIs" time="5" tests="2" failures="0" errors="0">
+   <testsuite name="TS_notificationAPIs" tests="2" failures="0" errors="0" time="5" timestamp="2018-09-17 15:13:36" hostname="Anuk - CL-AnukD" id="Test Suites/TS_notificationAPIs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\TS_notificationAPIs\\20180917_151333"/>
+         <property name="logFiles" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\TS_notificationAPIs\\20180917_151333\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anuk - CL-AnukD"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+      </properties>
+      <testcase name="Test Cases/WebService/Notification/TC_sendEmail" classname="Test Cases/WebService/Notification/TC_sendEmail" status="PASSED">
+         <system-out><![CDATA[2018-09-17 15:13:36 - [TEST_CASE][PASSED] - Test Cases/WebService/Notification/TC_sendEmail: Test Cases/WebService/Notification/TC_sendEmail
+
+2018-09-17 15:13:37 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendEmail)): Send request successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebService/Notification/TC_sendSMS" classname="Test Cases/WebService/Notification/TC_sendSMS" status="PASSED">
+         <system-out><![CDATA[2018-09-17 15:13:41 - [TEST_CASE][PASSED] - Test Cases/WebService/Notification/TC_sendSMS: Test Cases/WebService/Notification/TC_sendSMS
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendSMS)): Send request successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-09-17 15:13:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-09-17 15:13:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 15:13:36 - [TEST_SUITE][PASSED] - TS_notificationAPIs: Test Cases/WebService/Notification/TC_sendSMS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

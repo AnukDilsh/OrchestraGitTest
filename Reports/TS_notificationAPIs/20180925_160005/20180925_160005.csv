@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_notificationAPIs,,,2018-09-25 16:00:25,2018-09-25 16:01:09,44.849s,FAILED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendEmail,,,2018-09-25 16:00:26,2018-09-25 16:00:48,21.998s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendEmail)),,,2018-09-25 16:00:26,2018-09-25 16:00:48,21.590s,FAILED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendSMS,,,2018-09-25 16:00:48,2018-09-25 16:01:09,21.261s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendSMS)),,,2018-09-25 16:00:48,2018-09-25 16:01:09,21.017s,FAILED

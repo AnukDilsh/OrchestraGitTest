@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_notificationAPIs,,,2018-09-17 14:59:50,2018-09-17 14:59:54,3.517s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendEmail,,,2018-09-17 14:59:51,2018-09-17 14:59:53,1.960s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendEmail)),,,2018-09-17 14:59:52,2018-09-17 14:59:53,0.872s,PASSED
+verifyResponseStatusCode,,,2018-09-17 14:59:53,2018-09-17 14:59:53,0.014s,PASSED
+verifyElementPropertyValue,,,2018-09-17 14:59:53,2018-09-17 14:59:53,0.070s,PASSED
+verifyElementPropertyValue,,,2018-09-17 14:59:53,2018-09-17 14:59:53,0.028s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendSMS,,,2018-09-17 14:59:53,2018-09-17 14:59:54,0.745s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendSMS)),,,2018-09-17 14:59:53,2018-09-17 14:59:54,0.269s,PASSED
+verifyResponseStatusCode,,,2018-09-17 14:59:54,2018-09-17 14:59:54,0.003s,PASSED
+verifyElementPropertyValue,,,2018-09-17 14:59:54,2018-09-17 14:59:54,0.019s,PASSED
+verifyElementPropertyValue,,,2018-09-17 14:59:54,2018-09-17 14:59:54,0.025s,PASSED

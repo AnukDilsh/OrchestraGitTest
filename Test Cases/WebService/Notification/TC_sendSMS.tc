@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_sendSMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7abcb9f-f69f-414e-af19-6336b2f0b749</testCaseGuid>
+</TestCaseEntity>

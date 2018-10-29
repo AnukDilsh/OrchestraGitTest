@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_emptyFromSMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a195fb50-0a87-4cf6-a914-71410bb124c9</testCaseGuid>
+</TestCaseEntity>

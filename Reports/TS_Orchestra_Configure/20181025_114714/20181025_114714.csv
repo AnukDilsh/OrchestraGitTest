@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orchestra_Configure,Chrome 70.0.3538.77,,2018-10-25 11:47:16,2018-10-25 11:47:29,12.663s,PASSED
+,,,,,,
+Test Cases/Orchestra/TC_Login,Chrome 70.0.3538.77,,2018-10-25 11:47:17,2018-10-25 11:47:28,11.566s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-10-25 11:47:17,2018-10-25 11:47:24,6.845s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-25 11:47:24,2018-10-25 11:47:25,1.366s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-25 11:47:25,2018-10-25 11:47:26,0.628s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-25 11:47:26,2018-10-25 11:47:27,0.840s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-25 11:47:27,2018-10-25 11:47:28,1.532s,PASSED

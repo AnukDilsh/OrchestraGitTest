@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo Test Suite,Chrome 69.0.3497.100,,2018-10-09 09:41:50,2018-10-09 09:41:58,8.070s,ERROR
+,,,,,,
+Test Cases/Demo/Demo_001,Chrome 69.0.3497.100,,2018-10-09 09:41:50,2018-10-09 09:41:56,6.477s,ERROR
+openBrowser,Chrome 69.0.3497.100,,2018-10-09 09:41:50,2018-10-09 09:41:54,3.569s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-09 09:41:54,2018-10-09 09:41:56,2.493s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-09 09:41:56,2018-10-09 09:41:56,0.043s,PASSED

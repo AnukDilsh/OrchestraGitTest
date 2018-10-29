@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Notification_Email_Service,,,2018-10-10 16:18:02,2018-10-10 16:18:19,17.545s,FAILED
+,,,,,,
+Test Cases/WebService/Notification/TC_checkCalendarJSON,,,2018-10-10 16:18:02,2018-10-10 16:18:07,4.659s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/checkCalJSON)),,,2018-10-10 16:18:03,2018-10-10 16:18:06,3.740s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:06,2018-10-10 16:18:06,0.083s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:06,2018-10-10 16:18:07,0.180s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.117s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyBody,,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.773s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyBody)),,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.465s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.002s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.017s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:07,2018-10-10 16:18:07,0.021s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyFromEmail,,,2018-10-10 16:18:08,2018-10-10 16:18:09,1.140s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyFromEmail)),,,2018-10-10 16:18:08,2018-10-10 16:18:09,0.745s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:09,2018-10-10 16:18:09,0.013s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:09,2018-10-10 16:18:09,0.012s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:09,2018-10-10 16:18:09,0.051s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyQRCode,,,2018-10-10 16:18:09,2018-10-10 16:18:11,2.498s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyQR)),,,2018-10-10 16:18:09,2018-10-10 16:18:11,1.797s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:11,2018-10-10 16:18:11,0.003s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:11,2018-10-10 16:18:11,0.015s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:11,2018-10-10 16:18:11,0.033s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptySubject,,,2018-10-10 16:18:11,2018-10-10 16:18:12,0.801s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptySubject)),,,2018-10-10 16:18:11,2018-10-10 16:18:12,0.539s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:12,2018-10-10 16:18:12,0.002s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:12,2018-10-10 16:18:12,0.019s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:12,2018-10-10 16:18:12,0.010s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyEmailTenantID,,,2018-10-10 16:18:12,2018-10-10 16:18:15,2.588s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyTentant)),,,2018-10-10 16:18:12,2018-10-10 16:18:14,2.035s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:14,2018-10-10 16:18:14,0.004s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:14,2018-10-10 16:18:15,0.253s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.016s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_emptyToEmail,,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.940s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/emptyToEmail)),,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.558s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.006s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.026s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:15,2018-10-10 16:18:15,0.032s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_invalidFromEmail,,,2018-10-10 16:18:15,2018-10-10 16:18:17,1.060s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/invalidFromEmail)),,,2018-10-10 16:18:16,2018-10-10 16:18:16,0.510s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:16,2018-10-10 16:18:16,0.001s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:16,2018-10-10 16:18:16,0.009s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:16,2018-10-10 16:18:16,0.126s,FAILED
+,,,,,,
+Test Cases/WebService/Notification/TC_invalidToEmail,,,2018-10-10 16:18:17,2018-10-10 16:18:17,0.893s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/invalidToEmail)),,,2018-10-10 16:18:17,2018-10-10 16:18:17,0.564s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:17,2018-10-10 16:18:17,0.003s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:17,2018-10-10 16:18:17,0.014s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:17,2018-10-10 16:18:17,0.014s,PASSED
+,,,,,,
+Test Cases/WebService/Notification/TC_sendEmail,,,2018-10-10 16:18:17,2018-10-10 16:18:18,0.941s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(NotificationAPIs/sendEmail)),,,2018-10-10 16:18:18,2018-10-10 16:18:18,0.545s,PASSED
+verifyResponseStatusCode,,,2018-10-10 16:18:18,2018-10-10 16:18:18,0.010s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:18,2018-10-10 16:18:18,0.021s,PASSED
+verifyElementPropertyValue,,,2018-10-10 16:18:18,2018-10-10 16:18:18,0.023s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_emptyFromEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9eae713-cb32-4eab-aa18-2770ce0ab39a</testCaseGuid>
+</TestCaseEntity>

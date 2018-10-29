@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_System Administration Unit</name>
+   <tag></tag>
+   <elementGuidId>433c82f5-54b7-4fde-bba9-6f9d0d0397a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GJKAPQADPK</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>        System Administration Unit TypesLicensingImport / ExportWidgetsQueue AgentsAgentsAgent ProfilesParametersMark Types    Super Administrator Logout              Unit TypesSaveDiscard changesAdd Unit Typex Entry Points       Info NameDescriptionTemplate nameWebReceptionTemplate version2.5.0        Parameters             Powered by QMATIC Orchestra 7.0 [4.0.0.393] Licensed to Pers Test  </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[2]/div[@class=&quot;GJKAPQADPK&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

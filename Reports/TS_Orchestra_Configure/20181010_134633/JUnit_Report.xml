@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orchestra_Configure" time="73" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Orchestra_Configure" tests="2" failures="0" errors="0" time="73" timestamp="2018-10-10 13:46:36" hostname="Anuk - CL-AnukD" id="Test Suites/TS_Orchestra_Configure">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\TS_Orchestra_Configure\\20181010_134633"/>
+         <property name="logFiles" value="C:\\Users\\anuk\\Katalon Studio\\Qmatic\\Reports\\TS_Orchestra_Configure\\20181010_134633\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anuk - CL-AnukD"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="5f535625ee01c37b1ff4476cf2856800"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Orchestra/TC_Login" classname="Test Cases/Orchestra/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-10-10 13:46:37 - [TEST_CASE][PASSED] - Test Cases/Orchestra/TC_Login: Test Cases/Orchestra/TC_Login
+
+2018-10-10 13:46:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-10 13:47:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-10 13:47:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-10 13:47:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-10 13:47:15 - [TEST_STEP][PASSED] - setText: Text 'superadmin' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-10 13:47:16 - [MESSAGE][PASSED] - Text 'superadmin' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-10 13:47:16 - [TEST_STEP][PASSED] - setText: Text 'ulan' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-10 13:47:16 - [MESSAGE][PASSED] - Text 'ulan' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-10 13:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on
+
+2018-10-10 13:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orchestra/TC_Login" classname="Test Cases/Orchestra/TC_Login" status="PASSED">
+         <system-out><![CDATA[2018-10-10 13:47:24 - [TEST_CASE][PASSED] - Test Cases/Orchestra/TC_Login: Test Cases/Orchestra/TC_Login
+
+2018-10-10 13:47:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-10 13:47:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-10 13:47:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-10 13:47:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-10 13:47:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login.jsp' successfully
+
+2018-10-10 13:47:37 - [TEST_STEP][PASSED] - setText: Text 'notification' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-10 13:47:38 - [MESSAGE][PASSED] - Text 'notification' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Username_username'
+
+2018-10-10 13:47:38 - [TEST_STEP][PASSED] - setText: Text 'ulan' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-10 13:47:38 - [MESSAGE][PASSED] - Text 'ulan' is set on object 'Object Repository/Page_Qmatic Platform Login page/input_Password_password'
+
+2018-10-10 13:47:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on
+
+2018-10-10 13:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Qmatic Platform Login page/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-10 13:46:36 - [TEST_SUITE][PASSED] - TS_Orchestra_Configure: Test Cases/Orchestra/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
